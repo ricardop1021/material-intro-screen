@@ -90,6 +90,14 @@ public class SlideFragment extends ParallaxFragment {
     public int buttonsColor() {
         return buttonsColor;
     }
+    
+    public String title() {
+        return this.title;
+    }
+    
+    public String description() {
+        return this.description;
+    }
 
     public boolean hasAnyPermissionsToGrant() {
         boolean hasPermissionToGrant = hasPermissionsToGrant(neededPermissions);
